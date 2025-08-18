@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,500;1,600;1,700;1,800;1,900&display=swap');
+.nav{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+margin-left: 3.5%;
+top: 3%;
+    width: 90%;
+    height: 7svh;
+    /* background-color: black; */
+
+}
+.navdiv{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: rgb(255, 252, 236);
+
+    font-family: 'MarlinSoftBasic';
+    
+    
+}
+.c{
+    position: absolute;
+    right: 140px;    
+}
+.d{
+    position: absolute;
+    right: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(89, 153, 162);
+}
+.Link{
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navdiv:hover{
+    background-color:rgb(89, 153, 162);
+    color: white;
+    transition-delay: 0.1s;
+    transition-duration: 0.2s;
+}
+.logomain{
+    position: absolute;
+    left: 20px;
+    padding: 10px;
+    /* background-color: aqua; */
+    top: -2.5px;
+    color: rgb(255, 252, 236);
+    font-family: 'MarlinSoftBasic';
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 28px;
+}
+a{
+    color: rgb(255, 252, 236);
+    font-family: 'MarlinSoftBasic';
+    font-weight: 800;
+    /* font-size: 0px; */
+}

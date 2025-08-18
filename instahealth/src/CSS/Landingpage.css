@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+  font-family: 'MarlinSoftBasic';
+  src: url('../../public/assests/fonts/FontMesa\ -\ MarlinSoftBasic-Regular.otf') format('opentype');
+}
+.seg1 {
+    position: relative;
+    height: 100svh;
+    background-image: url('../assets/imgs/sean-oulashin-KMn4VEeEPR8-unsplash.jpg');
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+background-size: cover;
+    /* background-repeat: no-repeat; */
+    
+
+    
+    align-items: center;
+    overflow: hidden;
+    opacity: 1;
+}
+.qoute {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align */
+  position: absolute;
+  /* top: 180px; */
+  /* left: 18.5%; */
+  /* background-color:black; */
+  
+}
+
+.linetag1 {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-top: -120px; 
+}
+
+.linetag2 {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: -20px; /* Moves it upwards */
+}
+
+.linetag3 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+
+.tagline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    /* margin-top: 100px;   */
+    /* border: 1px solid; */
+    height: fit-content;
+    color: white;
+    width: fit-content;
+    letter-spacing: 0.5px;
+    font-family: 'MarlinSoftBasic', sans-serif;
+    color: rgb(255, 252, 236);
+    font-weight: 700;
+    font-size: 1rem;
+    /* left: 35.5%; */
+    letter-spacing: 1.3cap;
+}
+/* .setgo {
+    --b: 3px;  
+    --s: .15em;
+    --c: rgb(52, 68, 239);
+    padding: calc(.05em + var(--s)) calc(.3em + var(--s));
+    --_p: var(--s);
+    background:
+      conic-gradient(from 90deg at var(--b) var(--b),#fff8f800 90deg,var(--c) 0)
+      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #ffffff00;
+    outline-offset: .2em;
+  } */
+  .setgo {
+  letter-spacing: 0cap;
+    font-family: 'MarlinSoftBasic';
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-size: 15px;
+    left: -1%;
+    cursor: pointer;
+    border: none;
+    /* color: black; */
+    margin: .1em;
+    height: fit-content;
+    width: 100px;
+    padding:10px;
+    border-radius: 10px;
+    background-color: rgb(184, 231, 237);
+    position: relative;
+    top: 60px;
+    transition: .3s linear, color 0s, background-color 0s;
+    color: black;
+  }
+  .setgo:hover{
+    scale: 1.1;
+  }
+a{
+    text-decoration: none;
+color: black;
+}
+.idea{
+    color: rgb(244, 186, 121);
+    font-weight: 700;
+}
+.life{
+    color:rgb(255, 252, 236)
+}
+.seg1dup{
+  display: flex;
+  justify-content: center;
+/* top: 10%; */
+  position: relative;
+
+  height: fit-content;
+  width: 100%;
+  
+}
+.linetag1,.linetag2,.linetag3 ,.life{
+  font-family: 'MarlinSoftBasic', sans-serif;
+  color: rgb(96, 183, 195);
+  font-weight: 700;
+  letter-spacing: 0cap;
+  /* position: relative; */
+
+
+}
+/* .linetag1 {
+  
+  font-weight: bold;
+  margin-bottom: -15px; 
+}
+
+.linetag2 {
+  
+  font-weight: bold;
+  margin-bottom: -15px; 
+}
+
+.linetag3 {
+  
+  font-weight: bold;
+} */

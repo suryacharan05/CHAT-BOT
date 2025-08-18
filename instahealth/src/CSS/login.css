@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+  font-family: 'MarlinSoftBasic';
+  src: url('../../public/assests/fonts/FontMesa\ -\ MarlinSoftBasic-Regular.otf') format('opentype');
+}
+.loginpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100svb;
+    width: 100%;
+    /* background-color: black; */
+    color: rgb(242, 243, 245);
+    font-family: "Poppins", sans-serif;
+    background-image: url('../assets/imgs/abdulai-sayni-en53Cos2qBA-unsplash.jpg');
+    /* background-color: rgb(49, 57, 251); */
+    background-size: cover;
+    overflow: hidden;
+    opacity: 1;
+}
+.login{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 480px;
+    background-color:rgb(255, 252, 236);
+    border-radius: 5px;
+    animation: logindiv 0.3s  0s 1 forwards ;
+
+
+}
+@keyframes logindiv {
+    from{
+        scale: 0.9;
+    }
+    to{
+        scale: 1;
+    }
+}
+.loginform{
+    height: 80%;
+    width: 80%;
+   /* background-color: blue; */
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inp1{
+    width: 100%;
+    height: 7%;
+    margin: 10px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color:rgb(255, 252, 236);
+    /* border: 0.5px solid rgb(43, 37, 199); */
+    box-shadow: 0px 0px 10px 1px  rgba(102, 133, 235, 0.453);
+    font-family: 'MarlinSoftBasic';
+    
+}
+.loginbutton{
+    margin : 10px;
+}
+.heading1{
+    position: absolute;
+    top: 0;
+    margin: 10px;
+    font-family: 'MarlinSoftBasic';
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(55, 41, 38);
+    font-size: 70px;
+    
+}
+.backimg{
+    height: 100%;
+    width: 100%;
+}
+.loginbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 103%;
+    height: 7%;
+    margin: 10px;
+    /* border: 1px solid black; */
+    border: 0;
+    color: rgb(245, 245, 245);
+    font-size: 20px;
+    background-color:rgb(55, 41, 38);
+    border-radius: 5px;
+    padding: 20px;    
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    font-family: 'MarlinSoftBasic';
+
+}
+.loginbutton:hover{
+    background-color: rgb(89, 153, 162);
+    transform: scale(1.05);
+}
+.error{
+    display: flex;
+    justify-content: center;
+    bottom: 110px;
+    /* font-size: 10px; */
+    position: absolute;
+    color: rgba(250, 44, 44, 0.858);
+    font-size: 15px;
+    margin: 0;
+    height: fit-content;
+    width: 80%;
+    animation: horizontal-shaking 0.5s ease;
+    animation-iteration-count: initial;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    /* background-color: rgb(30, 31, 34); */
+}
+@keyframes horizontal-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(10px) }
+    50% { transform: translateX(-10px) }
+    75% { transform: translateX(10px) }
+    100% { transform: translateX(0) }
+   }
+   .loadinganimationstyle{
+    position: relative;
+    height: fit-content;
+    right: 16%;
+    /* top: 60%; */
+    scale: 0.4;
+    /* background-color: aliceblue; */
+   }
+   .positionlogin{
+    margin-left: 35%;
+   }
+   p{
+    color: rgb(89, 153, 162);
+   }
+   .getstartedlogin{
+    color: rgb(89, 153, 162);
+   }
+   .logologin{
+    position: absolute;
+    left: 40px;
+    padding: 10px;
+    top: 20px;
+    color: rgb(255, 252, 236);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    animation: pagetransition 0.5s 0s 1 forwards;
+   }
+ 
+
+@keyframes pagetransition {
+    0%{
+     left: 174px;
+   top: 26px;
+    }
+    100%{
+        
+        left: 40px;
+        top: 20px;  
+    }
+}
